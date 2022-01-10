@@ -1,27 +1,21 @@
 # React-styleguide
 
-Identifiers
+**Identifiers**
 
 Identifiers must use only ASCII letters, digits, underscores (for constants and structured test method names).
 
-Style
+* **UpperCamelCase**
 
-Category
+		class / interface / type / enum / decorator / type parameters
 
-UpperCamelCase
+* **lowerCamelCase**
 
-class / interface / type / enum / decorator / type parameters
-
-lowerCamelCase
-
-variable / parameter / function / method / property / module alias
+		variable / parameter / function / method / property / module alias
 
 
-CONSTANT_CASE
+* **CONSTANT_CASE**
 
-global constant values, including enum values
-
-
+		global constant values, including enum values
 
 
 #ident
