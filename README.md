@@ -20,16 +20,18 @@ Identifiers must use only ASCII letters, digits, underscores (for constants and 
 
 #ident
 
-	
+**private identifiers are never used.**
 
-private identifiers are never used.
-
-Abbreviations: Treat abbreviations like acronyms in names as whole words, i.e. use loadHttpUrl, not loadHTTPURL, unless required by a platform name (e.g. XMLHttpRequest).
-Dollar sign: Identifiers should not generally use $, except when aligning with naming conventions for third party frameworks.
-Type parameters: Type parameters, like in Array<T>, may use a single upper case character (T) or UpperCamelCase.
+**Abbreviations**: 
+Treat abbreviations like acronyms in names as whole words, i.e. use loadHttpUrl, not loadHTTPURL, unless required by a platform name (e.g. XMLHttpRequest).
+**Dollar sign**: 
+Identifiers should not generally use $, except when aligning with naming conventions for third party frameworks.
+**Type parameters:**
+Type parameters, like in Array<T>, may use a single upper case character (T) or UpperCamelCase.
 _ prefix/suffix: Identifiers must not use _ as a prefix or suffix. Exception: When a certain variable is not getting used in the function definition.
 
-Constants: CONSTANT_CASE indicates that a value is intended to not be changed, and may be used for values that can technically be modified (i.e. values that are not deeply frozen) to indicate to users that they must not be modified.
+**Constants**: 
+	CONSTANT_CASE indicates that a value is intended to not be changed, and may be used for values that can technically be modified (i.e. values that are not 	deeply frozen) to indicate to users that they must not be modified.
 
 const UNIT_SUFFIXES = {
   'milliseconds': 'ms',
