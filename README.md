@@ -6,8 +6,6 @@ Identifiers must use only ASCII letters, digits, underscores (for constants and 
 
 Style
 
-	
-
 Category
 
 UpperCamelCase
